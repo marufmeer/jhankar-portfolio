@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
-    display: flex; 
+    margin: 0;
+    
 }
 h1{
     font-size: 50px;
@@ -28,3 +29,55 @@ span{
 .half-width img{
     width: 80%;
 }
+.top-banner{
+    background: url(top-banner.png);
+    background-repeat: no-repeat;
+    
+    
+}
+section{
+   
+    margin-bottom: 80px;
+}
+.flexiable-container{
+    display: flex;
+ 
+}
+.flexiable-things{
+    display: flex;
+    
+}
+.experience-item{
+    width:50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow:10px 10px 40px gray ;
+    padding-left: 2%;
+    
+    
+}
+#rules{
+ border-image: linear-gradient(blue, cyan)  ;
+ border-left: 7px solid;
+ border-image-slice: 1;
+
+}
+#breakrules{
+    border-image: linear-gradient(salmon, tomato) ;
+ border-left: 7px solid;
+ border-image-slice: 1; 
+}
+footer{
+    text-align: center;
+}
+.mid-banner{
+    background-image: url(dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.my-rules{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+    
